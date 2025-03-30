@@ -9,7 +9,7 @@ const Login = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Basic validation
-    if (email === "test@example.com" && password === "password123") {
+    if (email === " " && password === " ") {
       alert("Logged in successfully");
     } else {
       setError("Invalid email or password");
